@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="code" />
+    <Filter Include="code\core" />
+    <Filter Include="code\entity" />
+    <Filter Include="code\gamedata" />
+    <Filter Include="code\menus" />
+    <Filter Include="code\ui" />
+    <Filter Include="code\ui\hud" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="code\core\DeClient.cpp">
+      <Filter>code\core</Filter>
+    </ClCompile>
+    <ClCompile Include="code\core\DeEngineInst.cpp">
+      <Filter>code\core</Filter>
+    </ClCompile>
+    <ClCompile Include="code\core\DeInput.cpp">
+      <Filter>code\core</Filter>
+    </ClCompile>
+    <ClCompile Include="code\core\DeWorldRenderPipe.cpp">
+      <Filter>code\core</Filter>
+    </ClCompile>
+    <ClCompile Include="code\entity\DeEnt.cpp">
+      <Filter>code\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="code\entity\DeImpEnt.cpp">
+      <Filter>code\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="code\entity\DePlayerEnt.cpp">
+      <Filter>code\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="code\entity\DeSpawnerEnt.cpp">
+      <Filter>code\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="code\entity\DeTargetWidgetEnt.cpp">
+      <Filter>code\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="code\gamedata\DeCreditsData.cpp">
+      <Filter>code\gamedata</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\DeCreditsMenu.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\DeMainMenu.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\DeMenu.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\DePauseMenu.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\DeSettingsMenu.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ui\hud\DeHud.cpp">
+      <Filter>code\ui\hud</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ui\hud\DeHudBar.cpp">
+      <Filter>code\ui\hud</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ui\hud\DeHudCrossHair.cpp">
+      <Filter>code\ui\hud</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ui\hud\DeHudWidget.cpp">
+      <Filter>code\ui\hud</Filter>
+    </ClCompile>
+    <ClCompile Include="code\DeGame.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\DeProfileData.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\DeWinMain.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="code\core\DeClient.h">
+      <Filter>code\core</Filter>
+    </ClInclude>
+    <ClInclude Include="code\core\DeEngineInst.h">
+      <Filter>code\core</Filter>
+    </ClInclude>
+    <ClInclude Include="code\core\DeInput.h">
+      <Filter>code\core</Filter>
+    </ClInclude>
+    <ClInclude Include="code\core\DeWorldRenderPipe.h">
+      <Filter>code\core</Filter>
+    </ClInclude>
+    <ClInclude Include="code\entity\DeEnt.h">
+      <Filter>code\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="code\entity\DeImpEnt.h">
+      <Filter>code\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="code\entity\DePlayerEnt.h">
+      <Filter>code\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="code\entity\DeSpawnerEnt.h">
+      <Filter>code\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="code\entity\DeTargetWidgetEnt.h">
+      <Filter>code\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="code\gamedata\DeCreditsData.h">
+      <Filter>code\gamedata</Filter>
+    </ClInclude>
+    <ClInclude Include="code\menus\DeMainMenu.h">
+      <Filter>code\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="code\menus\DeMenu.h">
+      <Filter>code\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="code\menus\DePauseMenu.h">
+      <Filter>code\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="code\menus\DeSettingsMenu.h">
+      <Filter>code\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ui\hud\DeHud.h">
+      <Filter>code\ui\hud</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ui\hud\DeHudBar.h">
+      <Filter>code\ui\hud</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ui\hud\DeHudCrossHair.h">
+      <Filter>code\ui\hud</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ui\hud\DeHudWidget.h">
+      <Filter>code\ui\hud</Filter>
+    </ClInclude>
+    <ClInclude Include="code\DeGame.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\DeProfileData.h">
+      <Filter>code</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="code\DeResources.rc">
+      <Filter>code</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Game.BuildConfig">
+      <Filter>
+      </Filter>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

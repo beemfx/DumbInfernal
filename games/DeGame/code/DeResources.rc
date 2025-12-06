@@ -1,0 +1,5 @@
+// (c) 2018 Beem Media
+
+// Icon (must be named EGICON for engine to find it)
+EGICON        ICON "data/textures/GameIcon.ico"
+EGICON_ENGINE ICON "../../core/egdata/textures/eg.ico"
