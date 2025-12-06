@@ -4,7 +4,7 @@ Updated: December 6, 2025
 
 (c) 2025 Beem Media
 
-Welcome to the release of the source code for DUMB Infernal. This repository includes the game code. The Emergence Engine is included as a submodule so it is recommended to use the --recursive with git clone so that everything needed is synced.
+Welcome to the release of the source code for DUMB Infernal. This repository includes the game code. The Emergence Engine is included as a submodule so it is recommended to use the --recursive option with git clone so that everything needed is synced.
 
 ## Building
 
